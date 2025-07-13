@@ -26,8 +26,8 @@ RNNs are particulary good at maintaining a contextual link between words. This m
 - pip install numpy pandas tensorflow nltk
 
 ## How to Run:
-Recommended Python Version:  3.10
-python ./RNN.py
+- Recommended Python Version:  3.10
+- python ./RNN.py
 
 ## Examples
 Input: "The biggest disappointment of my life came a year ago."
