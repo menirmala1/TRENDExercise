@@ -22,7 +22,9 @@ Neccessay Modules:
 - Pandas
 - TensorFlow
 - NLTK
+- 
 I would recommend to run with Python 3.10
+
 Command to run: python ./RNN.py
 
 Example Input: "The biggest disappointment of my life came a year ago."
