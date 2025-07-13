@@ -13,8 +13,8 @@ RNN Twitter Sentiment Analysis
 - TextVectorization
 - Embedding
 - SimpleRNN Bidirectional Layer
-- RELU
-- RELU
+- ReLU
+- ReLU
 - Softmax
 
 Neccessay Modules:
