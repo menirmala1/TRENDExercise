@@ -28,10 +28,13 @@ RNNs are particulary good at maintaining a contextual link between words. This m
 ## How to Run:
 - Recommended Python Version:  3.10
 - python ./RNN.py
+    - argument: --mode (train, predict)
+    - training mode trains the data on the training set and evauluates on the testing set
+    - predict mode takes in argument --input and predicts the classification of that string
 
 ## Examples
-Input: "The biggest disappointment of my life came a year ago."
-Output: [1, 0, 0, 0]
+Input: python ./RNN.py --mode predict --input "The biggest disappointment of my life came a year ago."
+Output: [1, 0, 0, 0] (Negative)
 
 Output is One-Hot encoded:
 - [1, 0, 0, 0] Negative
