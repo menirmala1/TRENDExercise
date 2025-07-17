@@ -34,6 +34,7 @@ RNNs are particulary good at maintaining a contextual link between words. This m
 
 ## Examples
 Input: python ./RNN.py --mode predict --input "The biggest disappointment of my life came a year ago."
+
 Output: [1, 0, 0, 0] (Negative)
 
 Output is One-Hot encoded:
