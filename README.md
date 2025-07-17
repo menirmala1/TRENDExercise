@@ -33,8 +33,7 @@ RNNs are particulary good at maintaining a contextual link between words. This m
     - predict mode takes in argument --input and predicts the classification of that string
 
 ## Examples
-Input: python ./RNN.py --mode predict --input "The biggest disappointment of my life came a year ago."
-
+Input: python ./RNN.py --mode predict --input "The biggest disappointment of my life came a year ago." <br/>
 Output: [1, 0, 0, 0] (Negative)
 
 Output is One-Hot encoded:
